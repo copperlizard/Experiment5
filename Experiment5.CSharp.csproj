@@ -102,10 +102,13 @@
     <Compile Include="Assets\Resources\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Resources\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\_Scripts\Billboard.cs" />
-    <Compile Include="Assets\_Scripts\TestBullet.cs" />
-    <Compile Include="Assets\_Scripts\TestEnemySpawner.cs" />
-    <Compile Include="Assets\_Scripts\TestHealth.cs" />
-    <Compile Include="Assets\_Scripts\TestPlayerController.cs" />
+    <Compile Include="Assets\_Scripts\HLAPI\TestBullet.cs" />
+    <Compile Include="Assets\_Scripts\HLAPI\TestEnemySpawner.cs" />
+    <Compile Include="Assets\_Scripts\HLAPI\TestHealth.cs" />
+    <Compile Include="Assets\_Scripts\HLAPI\TestPlayerController.cs" />
+    <Compile Include="Assets\_Scripts\LLAPI\LLAPINetworkManager.cs" />
+    <Compile Include="Assets\_Scripts\LLAPI\LLAPIPlayerController.cs" />
+    <Compile Include="Assets\_Scripts\LLAPI\UserCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
